@@ -1,0 +1,24 @@
+<launch>
+
+
+  <node name="speech_listener" 
+      pkg="thirdarm" 
+      type="speech_listener.py" 
+      respawn="false" output="screen" >
+      <param name="yaml_file" value="command2.yaml"/>
+  </node>
+
+  <node name="speech_recognizer" 
+        pkg="thirdarm" 
+        type="speech_recognizer.py" 
+        respawn="false" 
+        output="screen"/>  
+
+  <node name="command_listener" 
+        pkg="thirdarm" 
+        type="command_listener.py" /> 
+
+
+
+</launch>
+

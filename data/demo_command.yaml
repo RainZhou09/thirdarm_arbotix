@@ -1,0 +1,11 @@
+tag: "EXT_GRAB"
+speech: ["CAPPUCCINO"]
+---
+tag: "HANDOVER"
+speech: ["ESPRESSO"]
+---
+tag: "HOME"
+speech: ["HOME POSITION"]
+---
+tag: "OFF"
+speech: ["ALL MOTORS OFF"]

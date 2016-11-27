@@ -1,0 +1,29 @@
+tag: "LEFT"
+speech: ["LEFT"]
+---
+tag: "RIGHT"
+speech: ["RIGHT"]
+---
+tag: "UP"
+speech: ["MOVE UP"]
+---
+tag: "DOWN"
+speech: ["BEND DOWN"]
+---
+tag: "EXTEND"
+speech: ["EXTEND"]
+---
+tag: "RETRACT"
+speech: ["COME BACK"]
+---
+tag: "GRAB"
+speech: ["CLOSE HAND"]
+---
+tag: "RELEASE"
+speech: ["RELEASE"]
+---
+tag: "HOME"
+speech: ["HOME POSITION"]
+---
+tag: "OFF"
+speech: ["MOTORS OFF"]

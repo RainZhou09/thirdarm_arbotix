@@ -1,0 +1,17 @@
+tag: "STOP_MOVEMENT"
+speech: ["ATTENTION!"]
+---
+tag: "ROAMING"
+speech: ["AT EASE"]
+---
+tag: "GO_TO_TIM"
+speech: ["GO PLAY WITH TIM"]
+---
+tag: "FETCH_WATER"
+speech: ["GET ME SOME WATER"]
+---
+tag: "FETCH_BOOK"
+speech: ["GET ME A BOOK"]
+---
+tag: "GO_TO_MASTER"
+speech: ["COME HERE"]

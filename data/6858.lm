@@ -1,0 +1,92 @@
+Language model created by QuickLM on Mon Nov  7 23:45:20 EST 2016
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 10 sentences and 21 words
+
+\data\
+ngram 1=21
+ngram 2=29
+ngram 3=19
+
+\1-grams:
+-0.8921 </s> -0.3010
+-0.8921 <s> -0.2414
+-1.8921 ALL -0.2954
+-1.8921 BACK -0.2414
+-1.8921 BEND -0.2954
+-1.8921 CLOSE -0.2954
+-1.8921 DOWN -0.2414
+-1.8921 EXTENSION -0.2414
+-1.8921 GO -0.2954
+-1.8921 HAND -0.2414
+-1.8921 HOME -0.2954
+-1.8921 LEFT -0.2414
+-1.8921 MOTORS -0.2954
+-1.8921 MOVE -0.2954
+-1.8921 OFF -0.2414
+-1.8921 POSITION -0.2414
+-1.8921 RELEASE -0.2414
+-1.8921 RETRACT -0.2954
+-1.8921 RIGHT -0.2414
+-1.8921 ROTATE -0.2954
+-1.8921 UP -0.2414
+
+\2-grams:
+-1.3010 <s> ALL 0.0000
+-1.3010 <s> BEND 0.0000
+-1.3010 <s> CLOSE 0.0000
+-1.3010 <s> EXTENSION 0.0000
+-1.3010 <s> GO 0.0000
+-1.3010 <s> HOME 0.0000
+-1.3010 <s> MOVE 0.0000
+-1.3010 <s> RELEASE 0.0000
+-1.3010 <s> RETRACT 0.0000
+-1.3010 <s> ROTATE 0.0000
+-0.3010 ALL MOTORS 0.0000
+-0.3010 BACK </s> -0.3010
+-0.3010 BEND DOWN 0.0000
+-0.3010 CLOSE HAND 0.0000
+-0.3010 DOWN </s> -0.3010
+-0.3010 EXTENSION </s> -0.3010
+-0.3010 GO RIGHT 0.0000
+-0.3010 HAND </s> -0.3010
+-0.3010 HOME POSITION 0.0000
+-0.3010 LEFT </s> -0.3010
+-0.3010 MOTORS OFF 0.0000
+-0.3010 MOVE UP 0.0000
+-0.3010 OFF </s> -0.3010
+-0.3010 POSITION </s> -0.3010
+-0.3010 RELEASE </s> -0.3010
+-0.3010 RETRACT BACK 0.0000
+-0.3010 RIGHT </s> -0.3010
+-0.3010 ROTATE LEFT 0.0000
+-0.3010 UP </s> -0.3010
+
+\3-grams:
+-0.3010 <s> ALL MOTORS
+-0.3010 <s> BEND DOWN
+-0.3010 <s> CLOSE HAND
+-0.3010 <s> EXTENSION </s>
+-0.3010 <s> GO RIGHT
+-0.3010 <s> HOME POSITION
+-0.3010 <s> MOVE UP
+-0.3010 <s> RELEASE </s>
+-0.3010 <s> RETRACT BACK
+-0.3010 <s> ROTATE LEFT
+-0.3010 ALL MOTORS OFF
+-0.3010 BEND DOWN </s>
+-0.3010 CLOSE HAND </s>
+-0.3010 GO RIGHT </s>
+-0.3010 HOME POSITION </s>
+-0.3010 MOTORS OFF </s>
+-0.3010 MOVE UP </s>
+-0.3010 RETRACT BACK </s>
+-0.3010 ROTATE LEFT </s>
+
+\end\
